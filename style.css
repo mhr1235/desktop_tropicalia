@@ -1,0 +1,199 @@
+/*      ___   ____
+        /' --;^/ ,-_\     \ | /
+       / / --o\ o-\ \\   --(_)--
+      /-/-/|o|-|\-\\|\\   / | \
+       '`  ` |-|   `` '
+             |-|
+             |-|O
+             |-(\,__
+          ...|-|\--,\_....
+      ,;;;;;;;;;;;;;;;;;;;;;;;;,.
+~~,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,  ______   ---------   _____     ------ 
+
+*/
+
+div{
+
+
+}
+
+body{
+
+
+background-image: url(images/island_desktop.png);
+            background-repeat: no-repeat;
+            background-size: 100vw 100vh;
+            background-attachment: fixed;
+            height: 40em;
+            margin-top: 0;
+            padding: 0;
+
+ /*background: url(images/bg.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;*/
+
+
+
+
+/*	background: #FEB2BF;
+background: -webkit-linear-gradient(top, #FEB2BF, #CAFDBF);
+background: -moz-linear-gradient(top, #FEB2BF, #CAFDBF);
+background: linear-gradient(to bottom, #FEB2BF, #CAFDBF);
+background-color: red;*/
+} 
+
+@keyframes example3 {
+    0%   {left:30%;}
+    
+    100% {left:60%;}
+}
+
+.img-2 {
+  position: absolute;
+  width: 20%;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -165%);
+
+    animation-name: example3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+.ocean1 {
+position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0%;
+  top: 92%;
+  z-index: 5;
+}
+
+.ocean2 {
+position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0%;
+  top: 86%;
+    z-index: 3;
+}
+
+
+
+       #container {
+}
+
+@keyframes flying{
+
+
+
+
+    0%   {transform: translateY(6%);}
+
+   25%   {transform: translateY(1%);}
+
+    50% {transform: translateY(6%);}
+    
+    75% {transform: translateY(16%);}
+
+    100% {transform: translateY(6%);}
+
+
+}
+
+
+#mover {
+  position: absolute;
+  width: 10%;
+  top: 6%;
+  height: auto;
+
+    animation-name: flying;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#server_farm {
+  position: absolute;
+  width: 32%;
+  top: 30%;
+  left: 19%;
+  height: auto;
+  z-index: -2;
+}
+
+#tree {
+  position: absolute;
+  width: 15%;
+  top: 45%;
+  left: 73%;
+  height: auto;
+    z-index: 1;
+
+}
+
+@keyframes dolphin_jump {
+
+
+
+    0%   {transform: rotate(15deg);}
+
+
+
+    100% {transform: rotate(45deg);}
+
+}
+
+#dolphin {
+  position: absolute;
+  width: 16%;
+  top: 110%;
+  z-index: 4;
+
+  
+animation-name: dolphin_jump;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes city_rotate {
+
+
+
+    0%   {transform: rotate(25deg);}
+
+    25%   {transform: rotate(-25deg);}
+
+    50% {transform: rotate(25deg);}
+    
+    75% {transform: rotate(-25deg);}
+
+    100% {transform: rotate(25deg);}
+
+}
+
+#city {
+  position: absolute;
+  width: 15%;
+  top: 70%;
+  left: 15%;
+  height: auto;
+  z-index: 4;
+
+  animation-name: city_rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+
